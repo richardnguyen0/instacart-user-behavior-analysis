@@ -1,6 +1,5 @@
 SELECT 
   d.department,
-  p.product_name,
   COUNT(*) AS total_purchases,
   SUM(op.reordered) AS total_reorders,
   ROUND(AVG(op.reordered) * 100, 2) AS reorder_rate_pct,
@@ -9,6 +8,5 @@ SELECT
 FROM instacart.order_products_prior op
 JOIN instacart.products p ON op.product_id = p.product_id
 JOIN instacart.departments d ON p.department_id = d.department_id
-GROUP BY d.department, p.product_name
-HAVING COUNT(*) > 100
+GROUP BY d.department
 ORDER BY reorder_rate_pct DESC;
