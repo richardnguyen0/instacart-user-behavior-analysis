@@ -23,10 +23,13 @@ personalization, inventory prioritization, and lifecycle marketing.
   driven by habitual behavior rather than discovery
 - Dairy & Eggs and Produce show the highest reorder rates, suggesting 
   these categories are the core retention anchor for most users
-- [Add more as you build out the analysis]
+- User order frequency drops sharply after 4-5 orders, revealing a large 
+  casual user segment alongside a smaller but highly engaged power user base
+- Peak ordering occurs on Sundays and Mondays between 10am-3pm, suggesting 
+  users plan their week at the start of it
 
 ## Recommendations
-- [Add after analysis is complete]
+- [Will add after analysis is complete]
 
 ## Tools
 - **SQL** — BigQuery (3M+ orders, 32M+ product interactions)
@@ -42,3 +45,5 @@ personalization, inventory prioritization, and lifecycle marketing.
 | `department_analysis.sql` | Reorder rate and purchase volume by department |
 | `user_order_frequency.sql` | User segmentation by order frequency |
 | `time_analysis.sql` | Order patterns by hour and day of week |
+| `top_products.sql` | Top 20 products by reorder rate among frequently purchased items |
+
