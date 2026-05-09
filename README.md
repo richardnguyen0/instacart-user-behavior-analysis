@@ -51,8 +51,8 @@ and lifecycle marketing.
 ## SQL Queries
 | File | Description |
 |------|-------------|
-| `reorder_rate.sql` | Overall platform reorder rate |
-| `department_analysis.sql` | Reorder rate and purchase volume by department |
-| `top_products.sql` | Top 20 products by reorder rate among items with significant purchase volume |
-| `user_order_frequency.sql` | User segmentation by number of orders placed |
-| `time_analysis.sql` | Order volume patterns by day of week and hour of day |
+| `reorder_rate.sql` | Measures overall platform reorder rate to establish baseline retention health |
+| `department_analysis.sql` | Identifies highest-loyalty departments by reorder rate to surface category-level retention drivers |
+| `top_products.sql` | Identifies highest-loyalty products by reorder rate to surface SKU-level retention drivers |
+| `user_order_frequency.sql` | Segments users by order frequency to distinguish casual from high-value repeat customers |
+| `time_analysis.sql` | Analyzes order volume by day and hour to identify peak engagement windows |
