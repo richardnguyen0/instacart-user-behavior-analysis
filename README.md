@@ -46,8 +46,7 @@ and lifecycle marketing.
 
 ## Dashboard
 [Instacart User Behavior Analysis](https://public.tableau.com/app/profile/richard.nguyen1835/viz/Instacart_17782923390090/InstacartUserBehaviorAnalysis)
-
-## SQL Queries
+![Dashboard Preview](Instacart%20User%20Behavior%20Analysis.png)## SQL Queries
 | File | Description |
 |------|-------------|
 | `reorder_rate.sql` | Overall platform reorder rate |
