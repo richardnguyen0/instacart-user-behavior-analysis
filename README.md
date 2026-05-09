@@ -48,6 +48,10 @@ and lifecycle marketing.
 [Instacart User Behavior Analysis](https://public.tableau.com/app/profile/richard.nguyen1835/viz/Instacart_17782923390090/InstacartUserBehaviorAnalysis)
 ![Dashboard Preview](Instacart%20User%20Behavior%20Analysis.png)
 
+> **Note:** The Top 20 Products chart includes a **Min Purchases** filter
+> to exclude products with insufficient purchase history. Adjust the slider to explore 
+> products across different volume thresholds.
+
 ## SQL Queries
 | File | Description |
 |------|-------------|
